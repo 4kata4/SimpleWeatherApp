@@ -1,0 +1,36 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(60, 60, 65);
+  color: white
+  
+}
+
+h1 {
+  text-align: center;
+  font-style: bold;
+  font-size: 4em;
+  
+}
+
+h2 {
+  text-align: center;
+  font-style: bold;
+  font-size: 3em;}
+
+  button{ 
+    position: relative;
+    left: 78%;
+    font-size: 1.5em;
+    border: none;
+    background-color: darkred;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    cursor: pointer;
+    display:inline-flex;
+    bottom:20px
+    
+  }
+  button:hover{
+    background-color: rgb(129, 39, 39);
+  }
