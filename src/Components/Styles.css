@@ -1,5 +1,6 @@
 .inputbox{
     font-size:  2em;
+    position:relative;
 }
 
 .flex-container {
@@ -21,7 +22,7 @@
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    left: 250px;
+    left: 0px;
     position: relative
      }
 
@@ -35,6 +36,7 @@
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
+    position: relative;
     }
 
 .flex-item:nth-child(2) {
@@ -60,6 +62,18 @@
     -ms-flex-item-align: auto;
     align-self: auto;
     }
+.flex-item:nth-child(4) {
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        align-self: auto;
+        
+}
 
     .info{
         box-sizing: content-box;
@@ -69,12 +83,14 @@
     border-radius: 30px;
     position:relative;
     top: 140px;
-    right:450px;
+    right:250px;
     text-align:center;
     font-size: 1.5em;
     color: black;
     background-color: rgba(255, 255, 255, 0.788);
+    align-self: auto;
     }
+    
 img {
     position: relative;
     bottom: 60px;

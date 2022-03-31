@@ -15,7 +15,7 @@ const Forecast = (props) => {
             method: 'GET',
             headers: {
                 'X-RapidAPI-Host': 'community-open-weather-map.p.rapidapi.com',
-                'X-RapidAPI-Key': 'ae6434c7d8mshe83ce531f4c8b76p189eeajsn86d60b04c565'
+                "x-rapidapi-key": process.env.REACT_APP_API_KEY
             }
         };
         
@@ -63,7 +63,7 @@ const Forecast = (props) => {
                 </div>
                 <button type="submit" class="flex-item:nth-child(3)"> Submit </button>
             </form>
-            <Conditions 
+            <Conditions class="flex-item:nth-child(4)" 
             responseObj={responseObj} />
              </div>
         </div>
