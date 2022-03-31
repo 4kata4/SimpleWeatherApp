@@ -1,1 +1,1 @@
-SimpleWeatherApp made in ReactJS with openweatherapi
+SimpleWeatherApp made in ReactJS with OpenWeatherApi
